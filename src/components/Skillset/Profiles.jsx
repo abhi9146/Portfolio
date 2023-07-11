@@ -10,32 +10,32 @@ import {
 
 const Techstack = () => {
   return (
-    <Row style={{ justifyContent:"space-evenly", paddingBottom: "30px", paddingTop:"20px" }}>
-      <Col xs={4} md={2} className="tech-icons" style={{height:"200px",objectFit:"contain", Width:"200px"}}>
+     <Row style={{display:"flex",justifyContent:"space-evenly"}}>
+      <Col xs={4} md={2} className="tech-icons" >
         <SiLeetcode />
-        <span className="name" style={{display:"flex" ,flexDirection:"column"}}>
-        <a href="https://leetcode.com/abhi_9146/"><span style={{font:"20px"}}>Leetcode</span></a>
-        </span>
+        <div className="name">
+        <a href="https://leetcode.com/abhi_9146/" className="btn btn-dark">Leetcode</a>
+        </div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{height:"200px",objectFit:"contain", Width:"200px"}}>
+      <Col xs={4} md={2} className="tech-icons" >
         <SiCodeforces />
         <span className="name">
-        <a href="https://codeforces.com/profile/abhi7721">Codeforces</a>
+        <a href="https://codeforces.com/profile/abhi7721" className="btn btn-dark">Codeforces</a>
         </span>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{height:"200px",objectFit:"contain", Width:"200px"}}>
+      <Col xs={4} md={2} className="tech-icons" >
         <SiCodechef />
         <span className="name">
-        <a href="https://www.codechef.com/users/abhishek_9146">Codechef</a>
+        <a href="https://www.codechef.com/users/abhishek_9146" className="btn btn-dark">Codechef</a>
         </span>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{height:"200px",objectFit:"contain", Width:"200px"}}>
+      <Col xs={4} md={2} className="tech-icons" >
         <SiGeeksforgeeks />
         <span className="name">
-        <a href="https://auth.geeksforgeeks.org/user/abhisunkarwad2002/">GeeksForGeeks</a>
+        <a href="https://auth.geeksforgeeks.org/user/abhisunkarwad2002/" className="btn btn-dark">GeeksForGeeks</a>
         </span>
       </Col>
-    </Row>
+    </Row> 
   );
 }
 

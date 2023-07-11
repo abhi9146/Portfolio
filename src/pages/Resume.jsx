@@ -25,7 +25,8 @@ const Resume = () => {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ display:"flex",justifyContent: "center", position: "relative",flexDirection:"row" }}>
+        <h2 className="project-heading"> Resume </h2>
           <Button
             variant="primary"
             href={pdf}
