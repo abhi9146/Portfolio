@@ -5,7 +5,7 @@ import Particle from "../components/Particle";
 import Blog from "../assets/projects/Blog.png";
 import CodeVault from "../assets/projects/pg.png";
 import News from "../assets/projects/News.png";
-import krypto from "../assets/projects/krypto.png";
+import crypto from "../assets/projects/crypto.jpg";
 
 const Projects = () => {
   return (
@@ -45,7 +45,7 @@ const Projects = () => {
               passwords by selecting desired elements such as lowercase letters,
               uppercase letters, special characters, numbers, and more.
               "
-              ghLink="https://github.com/19sajib/social-media"
+              ghLink="https://github.com/abhi9146/CodeVault"
             />
           </Col>
 
@@ -62,12 +62,11 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={krypto}
+              imgPath={crypto}
               isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              // ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
-              // demoLink="https://project-krypto.netlify.app/"
+              title="CryptoInsight"
+              description="Project CryptoInsight is a Reactjs project that utilizes a api to collect information of crypto. It allows users to get the current price and information about the crypto currency."
+               ghLink="https://github.com/abhi9146/CryptoInsight"
             />
           </Col>
         </Row>
